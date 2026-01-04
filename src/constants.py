@@ -1,0 +1,9 @@
+import os
+
+DEFAULT_ROOT_DESTINATION = "./icloud-backup"
+DEFAULT_DRIVE_DESTINATION = "drive"
+DEFAULT_PHOTOS_DESTINATION = "photos"
+DEFAULT_CONFIG_FILE_NAME = "./config.yaml"
+DEFAULT_LOGGER_LEVEL = "info"
+DEFAULT_LOG_FILE_NAME = "icloud-backup.log"
+SESSION_STORAGE_PATH = "./session_data"

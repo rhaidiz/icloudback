@@ -1,0 +1,19 @@
+logger:
+  level: DEBUG
+  filename: ./icloudback.log
+
+credentials:
+  username: email@icloud.com
+  password: password_here
+
+root: "/path/to/destination/folder"
+
+# the numebr of threads to use to process your files
+threads_count: 5
+
+drive:
+  ignore: # Optional - use if you want to exclude something from the backup
+    - ".git"
+    - ".svn"
+    # For folders just type the folder name.
+    # No regex supported at the moment.
